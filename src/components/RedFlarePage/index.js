@@ -8,7 +8,9 @@ import RelaitedWork from './RelaitedWork';
 const index = () => {
     return (
         <div>
-            <Header pageName = "Red flare silhouetted"/>
+            <Header pageName = "Red flare silhouetted"
+                links={[{title: "Home", path: "/"}, {title: "Blog", path: "/blog"}, {title: "Red flare silhouetted", path: "/redflare"}]}
+            />
             <Content />
             <Comments />
             <Forms />

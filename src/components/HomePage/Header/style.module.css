@@ -32,6 +32,12 @@
 .navbar h1{
     margin-top: 16px;
     cursor: pointer;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+   
 }
 
 .navbar ul {

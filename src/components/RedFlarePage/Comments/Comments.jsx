@@ -8,7 +8,7 @@ function Comments(props) {
   return (
     <div>
       <Container>
-        <h1 style={{color: '#333333'}}>3 Comments</h1>
+        <h1 className={styles.hh}>3 Comments</h1>
         <div className={styles.comments}>
           <img src={afonso} alt="" />
           <div className={styles.items}>

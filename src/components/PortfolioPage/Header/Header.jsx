@@ -6,7 +6,7 @@ function Header() {
         <div>
             <HeaderCard 
                 pageName='Portfolio'
-                links={[{title: "Home", path: "/"}, {title: "Portfolio", path: "/Portfolio"}, {title: "qwe", path: "/qwe"}]}
+                links={[{title: "Home", path: "/"}, {title: "Portfolio", path: "/Portfolio"}]}
             />
         </div>
     );

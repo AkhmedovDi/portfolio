@@ -6,7 +6,9 @@ import Content from './BlogContent/content'
 const index = () => {
     return (
         <div>
-            <Header pageName="Blog" />
+            <Header pageName="Blog"
+                links={[{title: "Home", path: "/"}, {title: "Blog", path: "/blog"}, ]}
+            />
             <Content />
             <Footer />
         </div>

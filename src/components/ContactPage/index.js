@@ -5,7 +5,9 @@ import Content from './Content';
 const index = () => {
     return (
         <div>
-            <Header pageName='Contact'/>
+            <Header pageName='Contact'
+                links={[{title: "Home", path: "/"}, {title: "Contact", path: "/contact"}, ]}
+            />
             <Content />
             <Footer />
         </div>

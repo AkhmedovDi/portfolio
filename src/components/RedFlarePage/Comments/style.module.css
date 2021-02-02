@@ -12,13 +12,14 @@
     src: url('../../../fonts/SulphurPoint-Bold.ttf');
 }
 
-h1 {
+.hh h1 {
     font-family: 'Sulphur Point';
     font-size: 56px;
     line-height: 64px;
     text-align: center;
     margin-top: 95px;
     margin-bottom: 35px;
+    color: #333333
 }
 .comments {
     width: 770px;
