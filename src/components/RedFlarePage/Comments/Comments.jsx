@@ -63,23 +63,3 @@ function Comments(props) {
 }
 
 export default Comments;
-{
-  /* <div className={styles.comments}>
-<div className={styles.items}>
-  <div>
-    <div className={styles.persons}>
-      <img src={afonso} alt="" />
-      <div>
-        <h5> Afonso Pinto </h5>
-        <span>Jan 12, 2020</span>
-      </div>
-    </div>
-    <p>REPLY</p>
-  </div>
-  <p>
-    When she reached the first hills of the Italic Mountains, she had
-    a last view back on the skyline of her hometown Bookmarksgrove
-  </p>
-</div>
-</div> */
-}
