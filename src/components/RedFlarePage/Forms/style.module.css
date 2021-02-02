@@ -23,7 +23,8 @@
 }
 
 
-textarea{
+.forms textarea{
+    width: 800px;
     display: block;
     margin: 0 auto;
     border: 1px solid #DADADA;
@@ -34,7 +35,7 @@ textarea{
     color: rgb(95, 95, 95);
     resize: none;
 }
-textarea::-webkit-input-placeholder {
+.forms textarea::-webkit-input-placeholder {
     font-family: 'Public Sans';
     font-size: 20px;
     line-height: 32px;
