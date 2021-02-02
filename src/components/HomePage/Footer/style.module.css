@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+
+.buttons {
+    width: 160px;
+    height: 50px;
+    outline: none;
+    background-color: none;
+    font-family: 'Public Sans';
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ED3833;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+.bgColor {
+    background-color: #10294C;
+    padding-top: 76px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.content h2 {
+    font-size: 40px;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+}
+
+div p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+div nav {
+    font-size: 18px;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    color: rgba(240, 120, 103, 1);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+input {
+    height: 48px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: 'Public Sans';  
+    line-height: 32px;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+
+.line {
+    border-top: 1px solid #1C3455;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.line img {
+   margin: 31px 10px 32px 0;
+   cursor: pointer;
+}

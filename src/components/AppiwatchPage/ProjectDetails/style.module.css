@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+.content {
+    display: flex;
+    margin-top: 80px;
+}
+.content div {
+    width: 370px;
+}
+.content img {
+    width: 738px;
+    height: 512px;
+    margin-right: 62px;
+}
+
+
+.content nav {
+    text-transform: uppercase;
+    color: #F07867;
+    font-family: 'Sulphur Point';
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.content p {
+    font-family: 'Public Sans';
+    line-height: 32px;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 18px;
+  
+}
+.content span {
+    font-family: 'Public Sans';
+    line-height: 32px;
+    font-size: 16px;
+    color: #CCCCCC;
+    margin-bottom: 40px;
+    
+}
+.item {
+    font-family: 'Sulphur Point';
+    margin-top: 0;
+    margin-bottom: 33px!important;
+    font-size: 24px!important;
+}
+.icons img {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.icons {
+    margin-top: 39px;
+}

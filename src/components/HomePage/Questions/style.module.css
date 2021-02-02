@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+.text {
+    text-align: center;
+    margin-top: 267px;
+}
+
+.text nav {
+    text-transform: uppercase;
+    color: #F07867;
+    font-family: 'Sulphur Point';
+    font-size: 18px;
+}
+
+.text h2{
+    font-family: 'Sulphur Point';
+    line-height: 64px;
+    font-size: 56px;
+    color: #333333;
+    margin-top: 20px;
+}
+.text p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+.text span {
+    font-family: 'Public Sans';
+    line-height: 32px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.content {
+    padding: 50px 20%;
+}
+.content div {
+    width: 770px;
+    
+}
+.content h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Sulphur Point';
+    line-height: 32px;
+    margin: 37px 0 17px 0;
+    color: #333333;
+}
+.span1 {
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5016);
+    opacity: 0;
+}
+.spans {
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5016);
+    opacity: 1;
+}
+
+.item1 p {
+    font-family: 'Public Sans';
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 15px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.item p {
+    font-family: 'Public Sans';
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 15px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.item1 {
+    border: 3px ;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) ;
+    padding: 15px 0 35px 32px;
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.item {
+    border: 3px ;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) ;
+    padding: 10px 0 13px 32px;
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.item1 img {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.item img {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.content h2{
+    font-family: 'Sulphur Point';
+    line-height: 64px;
+    font-size: 56px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.svg {
+    transform: rotate(180deg);
+    transition: ease-in-out 0.2s;
+  
+}
+
+.rotated {
+    transform: rotate(0);
+    transition: ease-in-out 0.2s;
+   
+}

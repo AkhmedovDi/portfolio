@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+.backColor {
+    background-color: #10294C;    
+    padding-bottom: 118px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    font-family: 'Public Sans';
+    align-content: center;
+ 
+}
+.navbar h1{
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+.navbar ul li {
+    list-style: none;
+    margin-right: 35px;
+    line-height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.navbar div {
+    width: 150px;
+    height: 45px;
+    border: 1px solid #7BC7E9;
+    outline: none;
+    background-color: none;
+    text-align: center;
+    padding-top: 11px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar div:hover {
+    background-color: #ED3833;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+
+.text {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1 {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 72px;
+}
+.text p {
+    font-family: 'Sulphur Point';
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.Links {
+    font-family: 'Public Sans';
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}

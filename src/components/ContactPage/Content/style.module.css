@@ -1,0 +1,139 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.forms h1 {
+    font-family: 'Sulphur Point';
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 35px;
+    color: #333333;
+    margin-top: 30px!important;
+}
+
+
+textarea{
+    border: 1px solid #DADADA;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(95, 95, 95);
+    resize: none;
+    width: 474px;
+    margin-left: -2px;
+}
+textarea::-webkit-input-placeholder {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 32px;
+}
+
+
+.forms {
+    width: 570px;
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 80px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.forms input {
+    border: 1px solid #DADADA;
+    width: 474px;
+    margin-bottom: 30px;
+}
+input::-webkit-input-placeholder { 
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+ ::placeholder {
+    font-family: 'Public Sans';
+    font-size: 14px;
+    line-height: 32px;
+  }
+.forms input:last-child {
+    width: 170px;
+    background-color: #ED3833;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.submit {
+    margin-top: 32px;
+}
+
+.person {
+    width: 570px;
+    height: 530px;
+    background-color: #44AFE0;
+    border-radius: 3px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #ffffff;
+
+}
+.person img {
+    width: 160px;
+    height: 160px;
+}
+.person h2 {
+    font-family: 'Sulphur Point';
+    font-size: 56px;
+    line-height: 64px;
+}
+.phone{
+    margin-top: 90px;
+}
+.phone  span{
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Public Sans';
+}
+.phone p {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Sulphur Point';
+    margin-top: 0;
+}
+.email {
+    margin-top: 30px;
+}
+.email span {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Public Sans';
+}
+.email p{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Sulphur Point';
+    margin-top: 0;
+}
+.icons img {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.icons {
+    margin-top: 39px;
+}

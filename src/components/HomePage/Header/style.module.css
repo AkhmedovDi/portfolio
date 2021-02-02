@@ -1,0 +1,134 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+.backImage {
+    background-image: url("../../images/HomePage/Header/bg.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.navbar {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    font-family: 'Public Sans';
+    align-content: center;
+}
+.navbar h1{
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+.navbar ul li {
+    list-style: none;
+    margin-right: 35px;
+    line-height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.navbar div {
+    width: 170px;
+    height: 40px;
+    border: 1px solid #7BC7E9;
+    outline: none;
+    background-color: none;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar div:hover {
+    background-color: #ED3833;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info img{
+    float: right;
+    margin-top: 75px;
+    margin-right: 35px;
+    width: auto;
+    height: auto;
+}
+
+
+.personalInfo nav{
+    font-family: 'Sulphur Point';
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 24px;
+    margin-top: 187px;
+}
+.personalInfo h1{
+    font-size: 72px;
+    color: #ffffff;
+    font-family: 'Sulphur Point';
+    line-height: 80px;
+    margin-top: 20px;
+}
+.personalInfo p {
+    color: #ffffff;
+    font-family: 'Public Sans';
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.buttons {
+    width: 160px;
+    height: 50px;
+    border: 1px solid #7BC7E9;
+    outline: none;
+    background-color: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    color: #ffffff;
+    font-family: 'Public Sans';
+    display: inline-block;
+    border-radius: 5px;
+
+}
+.buttons:hover {
+    background-color: #ED3833;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+Link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:-webkit-any-link {
+    color: #ffffff;
+    text-decoration: none;
+
+}

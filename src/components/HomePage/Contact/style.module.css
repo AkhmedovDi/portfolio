@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+
+
+.bgImage {
+    background-image: url('../../images/HomePage/Contact/Group.png');
+    height: 416px;
+    
+}
+
+.text {
+    text-align: center;
+    margin-top: 134px;
+}
+
+.text h1{
+    font-family: 'Sulphur Point';
+    line-height: 64px;
+    font-size: 56px;
+    color: #ffffff;
+    margin-top: 21px;
+    padding-top: 112px;
+}
+
+.text p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+.contact {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #ED3833;
+    outline: none;
+    text-align: center;
+    padding-top: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Public Sans';
+    font-weight: 500;
+    margin: 35px 50px 0 0;
+    border-radius: 5px;
+}
+.about {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    padding-top: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Public Sans';
+    font-weight: 500;
+    margin-top: 33px;
+    border-radius: 5px;
+    border: 2px solid #6bcaf7;
+}
+
+.button {
+    display: flex;
+    margin: 0 35%;
+}

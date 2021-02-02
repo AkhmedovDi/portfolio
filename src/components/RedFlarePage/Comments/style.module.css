@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../fonts/static/PublicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../fonts/SulphurPoint-Bold.ttf');
+}
+
+h1 {
+    font-family: 'Sulphur Point';
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 35px;
+}
+.comments {
+    width: 770px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 2px solid #E2E2E2;
+    padding-bottom: 32px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.comments img {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: -20px;
+}
+h5 {
+    font-family: 'Sulphur Point';
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.person span {
+    font-size: 16px;
+    line-height: 32px;   
+}
+.items p {
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    
+}
